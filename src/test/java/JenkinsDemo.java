@@ -19,7 +19,7 @@ public class JenkinsDemo
     @Test
     public void testCasePassed()
     {
-        Assert.assertEquals(7, c.intValue());
+        Assert.assertEquals(8, c.intValue());
         System.out.println("c is : " + c);
     }
     
